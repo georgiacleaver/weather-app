@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+  </head>
+
+  <body>
+    <h1>Weather</h1>
+    <h2>Date</h2>
+    <form class="search" id="search-form">
+      <input
+        type="text"
+        placeholder="Enter city"
+        id="search-city"
+        autocomplete="off"
+        autofocus="on"
+      /><input type="submit" value="Search" />
+    </form>
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://i.pinimg.com/736x/e8/49/bc/e849bc7e0fa862e1c73571d2871676b5--olaf-party-zentangle-patterns.jpg"
+        class="card-img-top"
+        width="200px"
+      />
+      <div class="card-body">
+        <h5 id="location">Dunedin</h5>
+        <p id="temperature">16°</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
